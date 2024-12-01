@@ -13,6 +13,13 @@ body{
   display: flex;
   justify-content: center;
 }
+.output{
+  color: white;
+  font-size: 50px;
+  text-align: right;
+  padding:  0 25px 10px 20px;
+  width: 100%;
+}
 
 .calculator-fram{
   margin-top: 30px;
