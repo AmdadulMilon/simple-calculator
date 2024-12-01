@@ -1,0 +1,80 @@
+/* Background color: #000
+  number btn color: #333
+  up button: #a5a5a5
+  right button: #F1A33B
+*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.calculator-fram{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 646px;
+  width: 428px;
+  /* border: 1px solid black; */
+  justify-content: end;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  
+}
+
+.btn{
+  width: 88px;
+  height: 88px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.right-btn{
+  width: 88px;
+  height: 88px;
+  border: none;
+  border-radius: 50%;
+  background-color: #F1A33B;
+  font-size: 46px;
+  color: white;
+  cursor: pointer;
+}
+.right-btn:hover{
+  background-color: hsl(34, 87%, 54%);
+}
+.num-btn{
+  background-color: #333;
+  color: white;
+  font-size: 40px;
+}
+.num-btn:hover{
+  background-color: hsl(0, 0%, 25%);
+}
+
+.up-btn{
+  background-color: #a5a5a5;
+  font-size: 34px;
+}
+.up-btn:hover{
+  background-color: hsl(0, 0%, 70%);
+}
+
+.zero{
+  width: 190px;
+  height: 88px;
+  border-radius: 352px;
+  text-align: left;
+  padding: 0 0 0 36px;
+
+}
+.btn-row{
+  margin-bottom: 10px;
+
+}
