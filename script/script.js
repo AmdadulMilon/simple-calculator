@@ -17,9 +17,17 @@ jsBtn.forEach((data) => {
 })
 
 jsEqual.addEventListener('click', () =>{
-  const calculation = eval(number);
-  number = calculation;
-  outputDiv.innerText = calculation;
+  try{
+    const calculation = eval(number);
+    number = calculation;
+    outputDiv.innerText = calculation;
+    // number = '';
+  }catch(e){
+    outputDiv.innerText = 'Error';
+    number = '';
+
+  }
+  
   
 })
 
